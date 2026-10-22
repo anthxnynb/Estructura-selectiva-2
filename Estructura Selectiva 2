@@ -1,0 +1,13 @@
+Algoritmo Aprobacion_Asignatura
+// Declaracion de variables
+    Definir promedio Como Real
+//Control
+    Escribir "Ingrese el promedio final (0 a 10):"
+    Leer promedio
+
+    Si promedio >= 7 Entonces
+        Escribir "APRUEBA"
+    Sino
+        Escribir "NO APRUEBA"
+    FinSi
+FinAlgoritmo
